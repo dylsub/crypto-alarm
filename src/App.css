@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #10141b; /* Slightly lighter dark blue */
+  color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #253044; /* Slightly lighter blue */
+  color: #f9a825; /* Yellow contrasting color */
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #f9a825;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #1b2533; /* Slightly lighter blue */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  flex: 1;
+}
+
+h2 {
+  color: #f9a825; /* Yellow contrasting color */
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+.prices-list {
+  list-style: none;
+  padding: 0;
+}
+
+.prices-list li {
+  background: #253044; /* Slightly lighter blue */
+  border: 1px solid #374151;
+  border-radius: 8px;
+  margin: 1rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.prices-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+}
+
+.prices-list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #f9fafb;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: #cbd5e1;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 0.5rem;
+  border: 1px solid #4b5563;
+  border-radius: 6px;
+  background-color: #1b2533;
+  color: #f1f5f9;
+  font-size: 0.9rem;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #f9a825;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #253044;
+  color: #f9a825;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  font-size: 0.9rem;
+  border-top: 2px solid #f9a825;
+}
+
+.error {
+  color: #ef4444;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* Additional Effects */
+button {
+  background-color: #f9a825;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d4a017;
+}
