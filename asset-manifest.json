@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/crypto-alarm/static/css/main.062252a5.css",
+    "main.js": "/crypto-alarm/static/js/main.1e7abf48.js",
+    "static/js/540.2aa2f3f9.chunk.js": "/crypto-alarm/static/js/540.2aa2f3f9.chunk.js",
+    "static/js/54.50cf3123.chunk.js": "/crypto-alarm/static/js/54.50cf3123.chunk.js",
+    "index.html": "/crypto-alarm/index.html",
+    "main.062252a5.css.map": "/crypto-alarm/static/css/main.062252a5.css.map",
+    "main.1e7abf48.js.map": "/crypto-alarm/static/js/main.1e7abf48.js.map",
+    "540.2aa2f3f9.chunk.js.map": "/crypto-alarm/static/js/540.2aa2f3f9.chunk.js.map",
+    "54.50cf3123.chunk.js.map": "/crypto-alarm/static/js/54.50cf3123.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.062252a5.css",
+    "static/js/main.1e7abf48.js"
+  ]
+}
