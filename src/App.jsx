@@ -97,7 +97,7 @@ const App = () => {
     fetchPrices();
 
     // Set up interval to refetch prices every 5 seconds
-    const intervalId = setInterval(fetchPrices, 5000);
+    const intervalId = setInterval(fetchPrices, 60000);
 
     // Clear interval on component unmount
     return () => clearInterval(intervalId);
